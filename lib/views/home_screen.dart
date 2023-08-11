@@ -72,13 +72,13 @@ class _HomeScrreenState extends State<HomeScrreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // Display current weather information
-                  Text(
-                    ' ${weatherData!['city']['name']}',
-                    style: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
-                  ),
+                  // Text(
+                  //   ' ${weatherData!['city']['name']}',
+                  //   style: const TextStyle(
+                  //     fontWeight: FontWeight.bold,
+                  //     fontSize: 20,
+                  //   ),
+                  // ),
 
                   SizedBox(
                     width: double.infinity,
